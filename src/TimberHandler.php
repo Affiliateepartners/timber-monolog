@@ -1,12 +1,12 @@
 <?php
 
-namespace Liteweb\Timber\TimberMonolog;
+namespace Liteweb\TimberMonolog;
 
 class TimberHandler extends \Monolog\Handler\AbstractProcessingHandler
 {
     private $api;
 
-    function __construct(\Liteweb\Timber\TimberApi\TimberApi $api, $level = \Monolog\Logger::DEBUG, bool $bubble = true)
+    function __construct(\Liteweb\TimberApi\TimberApi $api, $level = \Monolog\Logger::DEBUG, bool $bubble = true)
     {
         $this->api = $api;
     }

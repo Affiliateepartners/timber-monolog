@@ -1,6 +1,6 @@
 <?php
 
-namespace Liteweb\Timber\TimberMonolog;
+namespace Liteweb\TimberMonolog;
 
 class TimberFormatter extends \Monolog\Formatter\JsonFormatter
 {
