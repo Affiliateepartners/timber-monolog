@@ -1,5 +1,5 @@
 {
-    "name": "laravel/timber-monolog",
+    "name": "liteweb/timber-monolog",
     "description": "PHP Timber Monolog integration",
     "type": "library",
     "require": {
