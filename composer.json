@@ -1,6 +1,6 @@
 {
     "name": "liteweb/timber-monolog",
-    "description": "PHP Timber Monolog integration",
+    "description": "PHP Timber.io Monolog integration",
     "type": "library",
     "require": {
         "liteweb/timber-api": "^1.0"
