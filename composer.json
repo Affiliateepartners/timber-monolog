@@ -3,7 +3,7 @@
     "description": "PHP Timber.io Monolog integration",
     "type": "library",
     "require": {
-        "liteweb/timber-api": "^1.0"
+        "liteweb/timber-api": "^1.1"
     },
     "license": "MIT",
     "authors": [
