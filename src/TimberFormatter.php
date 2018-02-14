@@ -30,7 +30,7 @@ class TimberFormatter extends \Monolog\Formatter\JsonFormatter
 
         $record['level'] === 'warning' and $record['level'] = 'warn'; // I have to...
 
-        $record['dt']      = \Carbon\Carbon::instance($record['datetime'])->setTimezone('Europe/Warsaw')->format('Y-m-d\TH:i:s.u\Z');
+        $record['dt']      = \Carbon\Carbon::instance($record['datetime'])->setTimezone('UTC')->format('Y-m-d\TH:i:s.u\Z');
 
         return $record;
     }
